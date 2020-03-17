@@ -5,9 +5,9 @@
   "main": "sass/avado.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css-build": "node-sass --omit-source-map-url sass/avado.sass css/style.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "css-build": "node-sass --importer=node_modules/node-sass-tilde-importer sass/avado.sass css/style.css",
+    "css-watch": "npm run css-build --importer=node_modules/node-sass-tilde-importer -- --watch",
+    "start": "npm run css-build && npm run css-watch"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/sponnet/avado-components#readme",
   "devDependencies": {
     "bulma": "^0.7.5",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "node-sass-tilde-importer": "^1.0.2"
   }
 }
