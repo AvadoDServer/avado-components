@@ -1,0 +1,26 @@
+{
+  "name": "avado-components",
+  "version": "1.0.0",
+  "description": "V2 Layout for AVADO",
+  "main": "sass/avado.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/avado.sass css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sponnet/avado-components.git"
+  },
+  "author": "AVADO",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sponnet/avado-components/issues"
+  },
+  "homepage": "https://github.com/sponnet/avado-components#readme",
+  "devDependencies": {
+    "bulma": "^0.7.5",
+    "node-sass": "^4.13.1"
+  }
+}
