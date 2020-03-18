@@ -1,11 +1,10 @@
-# AVADO components
+# AVADO style guide
 
-## Usage
+How to start locally:
 
-`npm install`
-`npm start`
+```
+npm install
+npx styleguidist server
+```
 
-This will create the `css/style.css` from the sass file and start watching changes in the sass file.
-
-Then open index.html from your file explorer in a browser. Refresh once you saved your sass file.
-
+Then open [http://localhost:6060](http://localhost:6060) in your browser.

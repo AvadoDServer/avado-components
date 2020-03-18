@@ -1,27 +1,36 @@
 {
-  "name": "avado-components",
+  "name": "react-styleguidist-example-basic",
+  "description": "React styleguidist basic example",
   "version": "1.0.0",
-  "description": "V2 Layout for AVADO",
-  "main": "sass/avado.scss",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "css-build": "node-sass --importer=node_modules/node-sass-tilde-importer sass/avado.sass css/style.css",
-    "css-watch": "npm run css-build --importer=node_modules/node-sass-tilde-importer -- --watch",
-    "start": "npm run css-build && npm run css-watch"
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sponnet/avado-components.git"
-  },
-  "author": "AVADO",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/sponnet/avado-components/issues"
-  },
-  "homepage": "https://github.com/sponnet/avado-components#readme",
-  "devDependencies": {
-    "bulma": "^0.7.5",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "dog-names": "^2.0.0",
+    "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
-    "node-sass-tilde-importer": "^1.0.2"
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-styleguidist": "^11.0.0",
+    "sass-loader": "^8.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.1"
   }
 }

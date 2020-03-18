@@ -118,8 +118,4 @@ const Help = ({
     </svg>
   );
 
-
-
-
-export default Logo;
-export { Help, Wifi, Nowifi };
+export default { Logo, Help, Wifi, Nowifi };
