@@ -2,6 +2,7 @@ const path = require('path');
 const { version } = require('./package');
 
 module.exports = {
+    title: 'AVADO components',
     components: 'src/components/**/[A-Z]*.js',
     defaultExample: true,
     moduleAliases: {
