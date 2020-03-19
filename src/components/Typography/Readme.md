@@ -1,4 +1,4 @@
-Typography example
+Typography example.
 
 ```jsx
     <section className="section">
