@@ -6,5 +6,6 @@ before_script:
 
 publish:
   stage: release
+  image: node:10-alpine
   script:
     - npx semantic-release
