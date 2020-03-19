@@ -1,12 +1,10 @@
-image: node:latest
+image: node:12
 
 stages:
   - release
 
-before_script:
-  - npm install
-
 publish:
   stage: release
   script:
+    - npm install
     - npx semantic-release
