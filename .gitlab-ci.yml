@@ -1,0 +1,10 @@
+stages:
+  - release
+
+before_script:
+  - npm install
+
+publish:
+  stage: release
+  script:
+    - npx semantic-release
