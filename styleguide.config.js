@@ -38,7 +38,7 @@ module.exports = {
         },
     },
     require: [
-        path.join(__dirname, './node_modules/bulma/bulma.sass'),
+        // path.join(__dirname, './node_modules/bulma/bulma.sass'),
         path.join(__dirname, './src/sass/avado.sass'),
     ]
 };
