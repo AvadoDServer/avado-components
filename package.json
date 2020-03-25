@@ -1,6 +1,6 @@
 {
-  "name": "react-styleguidist-example-basic",
-  "description": "React styleguidist basic example",
+  "name": "avado-components",
+  "description": "AVADO components",
   "version": "1.0.0",
   "private": true,
   "engines": {
