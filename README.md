@@ -1,31 +1,16 @@
-# avado-components
+# AVADO style guide
 
-> 
+How to start locally:
 
-[![NPM](https://img.shields.io/npm/v/avado-components.svg)](https://www.npmjs.com/package/avado-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-```bash
-npm install --save avado-components
+```
+npm install
+npx styleguidist server
 ```
 
-## Usage
+Then open [http://localhost:6060](http://localhost:6060) in your browser.
 
-```jsx
-import React, { Component } from 'react'
+## CI
 
-import MyComponent from 'avado-components'
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
-```
 
-## License
 
-MIT © [sponnet](https://github.com/sponnet)
