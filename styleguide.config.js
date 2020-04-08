@@ -5,9 +5,9 @@ module.exports = {
     title: 'AVADO components',
     components: 'src/components/**/[A-Z]*.js',
     defaultExample: true,
-    moduleAliases: {
-        'rsg-example': path.resolve(__dirname, 'src'),
-    },
+    // moduleAliases: {
+    //     'rsg-example': path.resolve(__dirname, 'src'),
+    // },
     // ribbon: {
     // 	// url: 'https://github.com/styleguidist/react-styleguidist',
     // },
@@ -17,11 +17,6 @@ module.exports = {
             rules: [
                 {
                     test: /\.jsx?$/,
-                    exclude: /node_modules/,
-                    loader: 'babel-loader',
-                },
-                {
-                    test: /\.js$/,
                     exclude: /node_modules/,
                     loader: 'babel-loader',
                 },
