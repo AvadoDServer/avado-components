@@ -1,4 +1,5 @@
 import React from "react";
+import "../../sass/avado.sass";
 
 const Logo = ({
   style = {},
