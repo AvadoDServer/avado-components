@@ -25,6 +25,15 @@ class Example extends Component {
 }
 ```
 
+## Development
+
+In this repo
+` npm link`
+
+In other repo
+`npm link avado-components`
+
+
 ## License
 
 MIT © [sponnet](https://github.com/sponnet)
