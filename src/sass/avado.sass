@@ -17,6 +17,8 @@ $size-2: 1.875em
 @import "~bulma/bulma.sass"
 
 //AVADO OVERWRITE CLASS-SPECIFICS
+.title
+  background: none
 .title:not(:last-child)
   margin-bottom: 0.625rem
 .title.is-2
@@ -76,7 +78,8 @@ a:hover
   cursor: pointer
 .has-avado-bg
   background: $avado-bluebg
-
+.full-height-min
+  min-height: 100vh
 
 //AVADOBAR
 .avadobar-menu

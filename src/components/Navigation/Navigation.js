@@ -6,12 +6,12 @@ const Navigation = ({
             <div className="avadobar-item is-inline-block-mobile is-inline-block-tablet-only">
                 <Icons.Wifi fill="#fff" width={40}/>
             </div>
-            <div className="avadobar-item is-inline-block-mobile is-inline-block-tablet-only cursorpointer">
+            <div onClick={() => props.onHelpClicked()} className="avadobar-item is-inline-block-mobile is-inline-block-tablet-only cursorpointer">
                 <Icons.Help fill="#fff" width={40}/>
             </div>
-            <a className="avadobar-item is-inline-block-mobile is-inline-block-tablet-only" href="https://ava.do">
+            {/* <a className="avadobar-item is-inline-block-mobile is-inline-block-tablet-only" href="https://ava.do">
                 <Icons.Logo fill="#fff" width={60} />
-            </a>
+            </a> */}
         </div>
 );
 
