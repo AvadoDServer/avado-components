@@ -17,6 +17,8 @@ $size-2: 1.875em
 @import "~bulma/bulma.sass"
 
 //AVADO OVERWRITE CLASS-SPECIFICS
+.title
+  background: none
 .title:not(:last-child)
   margin-bottom: 0.625rem
 .title.is-2
@@ -57,6 +59,24 @@ a:hover
   padding-right: 4rem
   min-width: 200px
 
+.modal-card
+  text-align: center
+
+.modal-card-head
+  background: white
+  border-bottom: none
+  padding: 0px
+  justify-content: flex-end
+
+.modal-card-body
+  padding: 0px 60px 30px 60px
+
+.modal-card-foot
+  background: white
+  flex-direction: column
+  padding-top: 30px
+  padding-bottom: 30px
+
 
 // AVADO MIXINS
 =boxer
@@ -70,13 +90,18 @@ a:hover
   flex-direction: column
   align-items: center
 
-
 // GENERAL CLASSES
 .cursorpointer
   cursor: pointer
 .has-avado-bg
   background: $avado-bluebg
-
+.full-height-min
+  min-height: 100vh
+.clearbtn
+  background: none
+  outline: none
+  border: none
+  cursor: pointer
 
 //AVADOBAR
 .avadobar-menu
