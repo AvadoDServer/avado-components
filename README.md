@@ -11,7 +11,7 @@
 
 `yarn styleguide`
 
-then open `http://localhost:6000/`
+then open `http://localhost:6060/`
 
 ## Install
 
