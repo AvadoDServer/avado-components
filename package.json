@@ -5,7 +5,7 @@
   "author": "sponnet",
   "license": "MIT",
   "repository": "sponnet/avado-components",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
@@ -51,7 +51,7 @@
     "react-styleguidist": "^11.1.5"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "dependencies": {
     "bulma": "^0.8.1",
