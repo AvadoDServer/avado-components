@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "avado-components",
   "version": "1.0.0",
   "description": "AVADO style components",
@@ -58,72 +57,4 @@
     "bulma": "^0.8.1",
     "node-sass": "^4.13.1"
   }
-=======
-    "name": "avado-components",
-    "version": "1.0.0",
-    "description": "AVADO style components",
-    "author": "sponnet",
-    "license": "MIT",
-    "repository": "sponnet/avado-components",
-    "main": "dist/index.js",
-    "module": "dist/index.modern.js",
-    "source": "src/index.js",
-    "engines": {
-        "node": ">=10"
-    },
-    "scripts": {
-        "build": "microbundle-crl --no-compress --format modern,cjs",
-        "start": "microbundle-crl watch --no-compress --format modern,cjs",
-        "prepublish": "run-s build",
-        "test": "run-s test:unit test:lint test:build",
-        "test:build": "run-s build",
-        "test:lint": "eslint .",
-        "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
-        "test:watch": "react-scripts test --env=jsdom",
-        "predeploy": "cd example && yarn install && yarn run build",
-        "deploy": "gh-pages -d example/build",
-        "styleguide": "styleguidist server",
-        "styleguide:build": "styleguidist build"
-    },
-    "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "cross-env": "^7.0.2",
-        "eslint": "^6.8.0",
-        "eslint-config-prettier": "^6.7.0",
-        "eslint-config-standard": "^14.1.0",
-        "eslint-config-standard-react": "^9.2.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-node": "^11.0.0",
-        "eslint-plugin-prettier": "^3.1.1",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-standard": "^4.0.1",
-        "gh-pages": "^2.2.0",
-        "microbundle-crl": "^0.13.8",
-        "npm-run-all": "^4.1.5",
-        "prettier": "^1.19.1",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-scripts": "^3.4.1"
-    },
-    "files": [
-        "dist"
-    ],
-    "dependencies": {
-        "@babel/core": "^7.12.10",
-        "@babel/preset-env": "^7.12.10",
-        "@babel/preset-react": "^7.12.10",
-        "babel-loader": "^8.2.2",
-        "bulma": "^0.8.1",
-        "core-js": "2",
-        "node-sass": "^4.13.1",
-        "react-styleguidist": "^11.1.5"
-    },
-    "browserslist": [
-        ">1%",
-        "last 1 version",
-        "Firefox ESR",
-        "not dead"
-    ]
->>>>>>> 6f507f7e30322013c60666b4223690fa0685e4c6
 }
