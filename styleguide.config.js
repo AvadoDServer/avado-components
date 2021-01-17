@@ -12,6 +12,16 @@ module.exports = {
     // 	// url: 'https://github.com/styleguidist/react-styleguidist',
     // },
     version,
+    // presets: [
+    //     [
+    //         '@babel/env',
+    //         {
+    //             modules: false,
+    //             useBuiltIns: 'usage'
+    //         }
+    //     ],
+    //     '@babel/react'
+    // ],
     webpackConfig: {
         module: {
             rules: [

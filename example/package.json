@@ -4,16 +4,19 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "avado-components": "link:..",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts"
+=======
+    "@babel/core": "^7.12.10",
+    "avado-components": "link:..",
+    "react-scripts": "^4.0.1"
+>>>>>>> 6f507f7e30322013c60666b4223690fa0685e4c6
   },
   "scripts": {
-    "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"

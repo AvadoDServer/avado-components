@@ -4,6 +4,15 @@
 
 [![NPM](https://img.shields.io/npm/v/avado-components.svg)](https://www.npmjs.com/package/avado-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+
+# running the styleguide
+
+`yarn`
+
+`yarn styleguide`
+
+then open `http://localhost:6060/`
+
 ## Install
 
 ```bash
