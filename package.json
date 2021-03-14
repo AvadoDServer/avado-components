@@ -1,18 +1,18 @@
 {
   "name": "avado-components",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "AVADO style components",
   "author": "sponnet",
   "license": "MIT",
   "repository": "sponnet/avado-components",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --no-compress --format modern,cjs &&  cp src/sass/avado.sass dist",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepublish": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -51,7 +51,7 @@
     "react-styleguidist": "^11.1.5"
   },
   "files": [
-    "src"
+    "dist"
   ],
   "dependencies": {
     "bulma": "^0.8.1",

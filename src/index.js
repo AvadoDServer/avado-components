@@ -1,11 +1,7 @@
 import React from 'react'
-// import styles from './styles.module.css'
+import './sass/avado.sass'
 
-// export const ExampleComponent = ({ text }) => {
-//   return <div className={styles.test}>Example Component: {text}</div>
-// }
+// import Icons from './components/Icons/Icons';
+// import Navigation from './components/Navigation/Navigation';
 
-import Icons from './components/Icons/Icons';
-import Navigation from './components/Navigation/Navigation';
-
-export default  { Icons, Navigation };
+export default  {  };
